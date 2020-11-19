@@ -4,8 +4,8 @@ from email.message import EmailMessage
 
 # --- Email login details ---
 
-EmailAddressSender = "andrews.python.app@gmail.com"
-EmailPassword = "Wolf3636"
+EmailAddressSender = "xxx@xxx.com"
+EmailPassword = "********"
 
 # --- who I'm sending the emails to ---
 
@@ -22,7 +22,7 @@ with open("EmailBodyText.txt", "r") as BlockText:
 msg = EmailMessage()
 msg['Subject'] = 'expression of interest'
 msg['From'] = EmailAddressSender
-msg['Cc'] = "andrewclarke.aron@gmail.com"
+msg['Cc'] = "xxx@xxx.com"
 msg['Bcc'] = EmailAddressReceiver
 msg.set_content(BlockText_body)
 
